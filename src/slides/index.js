@@ -144,7 +144,7 @@ export default function getSlides() {
     ...makeProgression({ alt: true }, 'Todos', [
       '微信JSSDK - Justin',
       'uoftada.com添加博客系统 - Arie',
-      'UT助手添加ADA logo - 水/皮卡',
+      'UT助手添加ADA logo - Arie/水/皮卡',
       '寻找附近餐馆IOS - Jerry',
       '一次coding算法比赛',
       '一次海报/摄影/视频展',
