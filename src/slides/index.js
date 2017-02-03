@@ -185,6 +185,17 @@ export default function getSlides() {
       </div>
     </Center>,
     <Center wide >
+      <img src="https://ww3.sinaimg.cn/large/006y8lVagy1fcdtj0xfb6j31bg150wls.jpg" height='100%' />
+    </Center>,
+    <Center wide>
+      <img src="https://ww3.sinaimg.cn/large/006y8lVagy1fcdtj0xfb6j31bg150wls.jpg" height='100%' style={{ opacity: .25 }} />
+      <div style={{ position: 'absolute', left: 0, top: 0, right: 0, bottom: 0, height: '100vh' }}>
+        <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }}>
+          <h1 style={{ alignSelf: 'center' }}>ADA Blog</h1>
+        </div>
+      </div>
+    </Center>,
+    <Center wide >
       <img src="https://ww1.sinaimg.cn/large/006y8lVagy1fcdsaylembj31kw0xrguf.jpg" height='100%' />
     </Center>,
     <Center wide>
