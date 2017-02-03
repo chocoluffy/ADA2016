@@ -157,6 +157,75 @@ export default function getSlides() {
     ]),
     <Center wide alt>
       <img src={require('./onepiece.jpg')} style={{position: 'absolute', left: 0, top: 0, width: '100vw', height: '100vh'}} />
-    </Center>
+    </Center>,
+    <Center alt>
+      <h1>Tech 2017</h1>
+      <h3>www.chocoluffy.com/ADA2016/</h3>
+    </Center>,
+    <Center wide >
+      <img src="https://ww4.sinaimg.cn/large/006y8lVagy1fcds0614pej30rq08iaax.jpg" width='100%' />
+    </Center>,
+    <Center wide>
+      <img src="https://ww4.sinaimg.cn/large/006y8lVagy1fcds0614pej30rq08iaax.jpg" width='100%' style={{ opacity: .25 }} />
+      <div style={{ position: 'absolute', left: 0, top: 0, right: 0, bottom: 0, height: '100vh' }}>
+        <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }}>
+          <h1 style={{ alignSelf: 'center' }}>添加ADA头像</h1>
+        </div>
+      </div>
+    </Center>,
+    <Center wide >
+      <img src="https://ww2.sinaimg.cn/large/006y8lVagy1fcds6868i0j30wc1jw44r.jpg" height='100%' />
+    </Center>,
+    <Center wide>
+      <img src="https://ww2.sinaimg.cn/large/006y8lVagy1fcds6868i0j30wc1jw44r.jpg" height='100%' style={{ opacity: .25 }} />
+      <div style={{ position: 'absolute', left: 0, top: 0, right: 0, bottom: 0, height: '100vh' }}>
+        <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }}>
+          <h1 style={{ alignSelf: 'center' }}>adaize.uoftada.com</h1>
+        </div>
+      </div>
+    </Center>,
+    <Center wide >
+      <img src="https://ww1.sinaimg.cn/large/006y8lVagy1fcdsaylembj31kw0xrguf.jpg" height='100%' />
+    </Center>,
+    <Center wide>
+      <img src="https://ww1.sinaimg.cn/large/006y8lVagy1fcdsaylembj31kw0xrguf.jpg" height='100%' style={{ opacity: .25 }} />
+      <div style={{ position: 'absolute', left: 0, top: 0, right: 0, bottom: 0, height: '100vh' }}>
+        <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }}>
+          <h1 style={{ alignSelf: 'center' }}>AirLoft学习小组</h1>
+        </div>
+      </div>
+    </Center>,
+    <Center alt>
+      <h1>One more thing...</h1>
+    </Center>,
+    <Center wide >
+      <img src="https://ww3.sinaimg.cn/large/006y8lVagy1fcdsg5iv2rj31hc0u0jss.jpg" width='100%' />
+    </Center>,
+    <Center wide>
+      <img src="https://ww3.sinaimg.cn/large/006y8lVagy1fcdsg5iv2rj31hc0u0jss.jpg" width='100%' style={{ opacity: .25 }} />
+      <div style={{ position: 'absolute', left: 0, top: 0, right: 0, bottom: 0, height: '100vh' }}>
+        <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center' }}>
+          <h1 style={{ alignSelf: 'center' }}>鲸语whalesper</h1>
+        </div>
+      </div>
+    </Center>,
+    ...makeProgression({ alt: true }, 'ADA 2016', [
+      'UT助手',
+      'Automation',
+      'IOS'
+    ]),
+    ...makeProgression({ alt: true }, 'ADA 2017', [
+      'Social',
+      'Machine Learning'
+    ]),
+    ...makeProgression({ alt: true }, 'Todos', [
+      '鲸语 | 树洞 - Luffy',
+      '微信头像story teller - Luffy Arie',
+      'Memory chatbot - Arie',
+      '一次coding算法比赛',
+      '一次海报/摄影/视频展',
+      '还有各种好玩的活动呀喂٩(´0`)۶',
+      '...'
+    ])
   ];
 }
